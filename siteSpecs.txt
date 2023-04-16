@@ -1,0 +1,5 @@
+Features: 
+
+- Be able to save our expenses
+- Be able to calculate our expenses
+- Be able to tell us how much in a given week we need in our expenses account 
