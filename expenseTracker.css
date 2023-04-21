@@ -1,84 +1,46 @@
-/* Body */
 body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #f1f1f1;
-  color: #333;
-}
-
-/* Header */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-/* Navigation */
-nav {
-  background-color: #666;
-  color: #fff;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-nav ul {
-  list-style: none;
+  background-color: grey;
+  font-size: 22px;
+  text-align: center;
   margin: 0;
-  padding: 0;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+h3 {
+  font-size: 28px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
+label {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav a:hover {
-  color: #ccc;
+.welcomeMessage {
+  font-size: 18px;
 }
 
-/* Main Content */
-main {
-  width: 80%;
-  margin: 0 auto;
+.expense {
+  margin-left: -10px;
 }
 
-section {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  padding: 20px;
-  margin-bottom: 20px;
+.addExpense {
+  background-color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 25px;
+  border: 100px, silver;
 }
 
-h1, h2 {
-  font-weight: normal;
-  text-align: center;
+
+.expenseTotal {
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p {
-  line-height: 1.5;
+.weeklyTotal {
+    font-size: 18px;
 }
 
-button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
-button:hover {
-  background-color: #666;
-}
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
